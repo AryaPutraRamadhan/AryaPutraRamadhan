@@ -104,6 +104,18 @@ class Arya:
 
 ---
 
+## 🟡 Pac-Man eating my contributions!
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AryaPutraRamadhan/AryaPutraRamadhan/output/github-contribution-grid-pacman.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AryaPutraRamadhan/AryaPutraRamadhan/output/github-contribution-grid-pacman.svg"/>
+  <img alt="Pacman animation" src="https://raw.githubusercontent.com/AryaPutraRamadhan/AryaPutraRamadhan/output/github-contribution-grid-pacman.svg"/>
+</picture>
+</div>
+
+---
+
 ## 🌐 Let's Connect!
 
 <div align="center">
