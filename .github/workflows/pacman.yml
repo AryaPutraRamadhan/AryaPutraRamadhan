@@ -8,13 +8,15 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v3
-      - uses: hugopm/github-contribution-grid-pacman@v1
+      - uses: actions/checkout@v4
+      - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          output_folder: dist
+          outputs: |
+            dist/github-contribution-grid-pacman.svg?palette=github-dark&animate=true&color_snake=#FFFF00&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9&color_empty=#ebedf0&game=pacman
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
